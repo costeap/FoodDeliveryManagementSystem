@@ -1,0 +1,1 @@
+BaseProduct{title='frigarui', rating=3.0, calories=6, proteins=46, fats=3, sodium=7, price=29}

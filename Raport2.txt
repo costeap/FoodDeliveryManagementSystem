@@ -1,0 +1,2 @@
+MenuItem{title='null', rating=5.0, calories=4, proteins=10, fats=14, sodium=8, price=16}->2
+BaseProduct{title='apa', rating=6.0, calories=2, proteins=5, fats=7, sodium=4, price=5}->2

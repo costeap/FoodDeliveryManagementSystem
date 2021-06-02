@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="959.7458663676754" y="290.0">DataLayer.FileWriterr</node>
+    <node x="1657.960152081961" y="130.0">BusinessLayer.BaseProduct</node>
+    <node x="1464.7253978291212" y="0.0">BusinessLayer.MenuItem</node>
+    <node x="680.7573398823404" y="470.0">PresentationLayer.Criteriu</node>
+    <node x="1248.7458663676753" y="290.0">BusinessLayer.IDeleveryServiceProcessing</node>
+    <node x="950.6588550338556" y="470.0">BusinessLayer.DeliveryService</node>
+    <node x="1525.7458663676753" y="290.0">BusinessLayer.CompositeProduct</node>
+    <node x="209.0" y="290.0">PresentationLayer.Employee</node>
+    <node x="0.0" y="550.0">PresentationLayer.View</node>
+    <node x="375.79020979020976" y="290.0">PresentationLayer.All</node>
+    <node x="101.0" y="290.0">PresentationLayer.Admin</node>
+    <node x="255.8791790360939" y="130.0">PresentationLayer.User</node>
+    <node x="1755.5640481858572" y="290.0">PresentationLayer.AdministratorGraphicalUserInterface</node>
+    <node x="546.9481251018485" y="550.0">PresentationLayer.ClientGraphicalUserInterface</node>
+    <node x="740.7573398823404" y="720.0">PresentationLayer.Controller</node>
+    <node x="351.42274770147156" y="800.0">Main.MainClass</node>
+    <node x="422.29020979020976" y="130.0">DataLayer.Serializator</node>
+    <node x="847.4253978291213" y="130.0">BusinessLayer.Order</node>
+    <node x="915.2458663676754" y="550.0">PresentationLayer.EmployeeGraphicalUserInterface</node>
+    <node x="78.82458197830545" y="0.0">PresentationLayer.Role</node>
+    <node x="1115.7458663676753" y="290.0">PresentationLayer.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BusinessLayer.MenuItem" target="BusinessLayer.BaseProduct">
+      <point x="37.33333333333326" y="15.0" />
+      <point x="1558.0587311624545" y="60.0" />
+      <point x="1759.960152081961" y="60.0" />
+      <point x="34.0" y="-15.0" />
+    </edge>
+    <edge source="BusinessLayer.DeliveryService" target="PresentationLayer.User">
+      <point x="-72.0" y="-15.0" />
+      <point x="962.6588550338556" y="430.0" />
+      <point x="357.29020979020976" y="430.0" />
+      <point x="357.29020979020976" y="220.0" />
+      <point x="308.18687134378615" y="220.0" />
+      <point x="12.307692307692264" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.User" target="PresentationLayer.Role">
+      <point x="-20.0" y="-15.0" />
+      <point x="275.8791790360939" y="90.0" />
+      <point x="136.60235975608316" y="90.0" />
+      <point x="17.77777777777777" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.DeliveryService" target="PresentationLayer.AdministratorGraphicalUserInterface">
+      <point x="80.0" y="-15.0" />
+      <point x="1114.6588550338556" y="450.0" />
+      <point x="1810.230714852524" y="450.0" />
+      <point x="-109.33333333333326" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="BusinessLayer.BaseProduct">
+      <point x="43.636363636363626" y="-15.0" />
+      <point x="848.3937035187039" y="670.0" />
+      <point x="1745.0640481858572" y="670.0" />
+      <point x="1745.0640481858572" y="270.0" />
+      <point x="1784.2458663676753" y="270.0" />
+      <point x="58.28571428571422" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.Role">
+      <point x="-49.45454545454538" y="-15.0" />
+      <point x="755.3027944277949" y="680.0" />
+      <point x="90.5" y="680.0" />
+      <point x="90.5" y="110.0" />
+      <point x="109.93569308941653" y="110.0" />
+      <point x="-8.888888888888914" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="BusinessLayer.DeliveryService">
+      <point x="14.545454545454504" y="-15.0" />
+      <point x="819.3027944277949" y="620.0" />
+      <point x="904.7458663676754" y="620.0" />
+      <point x="904.7458663676754" y="530.0" />
+      <point x="971.6588550338556" y="530.0" />
+      <point x="-63.0" y="15.0" />
+    </edge>
+    <edge source="DataLayer.FileWriterr" target="BusinessLayer.DeliveryService">
+      <point x="17.0" y="15.0" />
+      <point x="1044.7458663676753" y="450.0" />
+      <point x="1042.6588550338556" y="450.0" />
+      <point x="8.0" y="-15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.All">
+      <point x="-20.363636363636374" y="-15.0" />
+      <point x="784.3937035187039" y="630.0" />
+      <point x="402.69930069930064" y="630.0" />
+      <point x="402.69930069930064" y="450.0" />
+      <point x="411.79020979020976" y="450.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="BusinessLayer.Order">
+      <point x="8.727272727272748" y="-15.0" />
+      <point x="813.4846126096131" y="610.0" />
+      <point x="835.2663069200305" y="610.0" />
+      <point x="835.2663069200305" y="270.0" />
+      <point x="866.2825406862642" y="270.0" />
+      <point x="-25.14285714285711" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.EmployeeGraphicalUserInterface">
+      <point x="20.363636363636374" y="-15.0" />
+      <point x="825.1209762459766" y="630.0" />
+      <point x="987.2458663676754" y="630.0" />
+      <point x="-72.0" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="BusinessLayer.MenuItem">
+      <point x="61.09090909090912" y="-15.0" />
+      <point x="865.8482489732494" y="700.0" />
+      <point x="2094.0640481858572" y="700.0" />
+      <point x="2094.0640481858572" y="50.0" />
+      <point x="1570.503175606899" y="50.0" />
+      <point x="49.77777777777783" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.ClientGraphicalUserInterface">
+      <point x="-8.727272727272748" y="-15.0" />
+      <point x="796.0300671550676" y="610.0" />
+      <point x="614.9481251018485" y="610.0" />
+      <point x="-68.0" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.AdministratorGraphicalUserInterface">
+      <point x="55.27272727272725" y="-15.0" />
+      <point x="860.0300671550676" y="690.0" />
+      <point x="1962.152670556394" y="690.0" />
+      <point x="1962.152670556394" y="450.0" />
+      <point x="2028.8973815191905" y="450.0" />
+      <point x="109.33333333333326" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.DeliveryService" target="PresentationLayer.All">
+      <point x="-56.0" y="-15.0" />
+      <point x="978.6588550338556" y="410.0" />
+      <point x="435.79020979020976" y="410.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.CompositeProduct" target="BusinessLayer.MenuItem">
+      <point x="-35.200000000000045" y="-15.0" />
+      <point x="1578.5458663676754" y="260.0" />
+      <point x="1545.7958663676754" y="260.0" />
+      <point x="1545.7958663676754" y="90.0" />
+      <point x="1520.7253978291212" y="90.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Admin" target="PresentationLayer.User">
+      <point x="0.0" y="-15.0" />
+      <point x="145.0" y="250.0" />
+      <point x="258.956102113017" y="250.0" />
+      <point x="-36.923076923076906" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.DeliveryService" target="DataLayer.Serializator">
+      <point x="-40.0" y="-15.0" />
+      <point x="994.6588550338556" y="390.0" />
+      <point x="514.2902097902097" y="390.0" />
+      <point x="514.2902097902097" y="240.0" />
+      <point x="530.2902097902097" y="240.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.DeliveryService" target="BusinessLayer.Order">
+      <point x="-24.0" y="-15.0" />
+      <point x="1010.6588550338556" y="370.0" />
+      <point x="934.2458663676754" y="370.0" />
+      <point x="934.2458663676754" y="270.0" />
+      <point x="878.8539692576928" y="270.0" />
+      <point x="-12.571428571428555" y="15.0" />
+    </edge>
+    <edge source="Main.MainClass" target="PresentationLayer.View">
+      <point x="-45.0" y="-15.0" />
+      <point x="366.42274770147156" y="780.0" />
+      <point x="14.5" y="780.0" />
+      <point x="14.5" y="700.0" />
+      <point x="10.0" y="700.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="DataLayer.FileWriterr" target="BusinessLayer.Order">
+      <point x="0.0" y="-15.0" />
+      <point x="1027.7458663676753" y="250.0" />
+      <point x="903.9968264005499" y="250.0" />
+      <point x="12.571428571428555" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.DeliveryService" target="BusinessLayer.MenuItem">
+      <point x="40.0" y="-15.0" />
+      <point x="1074.6588550338556" y="400.0" />
+      <point x="1515.2458663676753" y="400.0" />
+      <point x="1515.2458663676753" y="110.0" />
+      <point x="1495.8365089402323" y="110.0" />
+      <point x="-24.888888888888914" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.BaseProduct" target="BusinessLayer.MenuItem">
+      <point x="-34.0" y="-15.0" />
+      <point x="1691.960152081961" y="70.0" />
+      <point x="1545.6142867180101" y="70.0" />
+      <point x="24.888888888888914" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Employee" target="PresentationLayer.User">
+      <point x="0.0" y="-15.0" />
+      <point x="265.0" y="270.0" />
+      <point x="271.26379442070925" y="270.0" />
+      <point x="-24.61538461538464" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.IDeleveryServiceProcessing" target="BusinessLayer.MenuItem">
+      <point x="64.0" y="-15.0" />
+      <point x="1440.7458663676753" y="110.0" />
+      <point x="1483.392064495788" y="110.0" />
+      <point x="-37.33333333333326" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.View" target="PresentationLayer.Role">
+      <point x="26.66666666666663" y="-15.0" />
+      <point x="66.66666666666663" y="530.0" />
+      <point x="54.15791531163882" y="530.0" />
+      <point x="54.15791531163882" y="100.0" />
+      <point x="101.04680420052773" y="100.0" />
+      <point x="-17.777777777777715" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.IDeleveryServiceProcessing" target="BusinessLayer.Order">
+      <point x="-64.0" y="-15.0" />
+      <point x="1312.7458663676753" y="230.0" />
+      <point x="929.139683543407" y="230.0" />
+      <point x="37.71428571428578" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.All" target="PresentationLayer.User">
+      <point x="-30.857142857142833" y="-15.0" />
+      <point x="380.9330669330669" y="200.0" />
+      <point x="320.49456365147853" y="200.0" />
+      <point x="24.61538461538464" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Admin" target="PresentationLayer.Role">
+      <point x="-29.33333333333337" y="-15.0" />
+      <point x="115.66666666666663" y="270.0" />
+      <point x="131.86330448511342" y="270.0" />
+      <point x="131.86330448511342" y="110.0" />
+      <point x="118.82458197830545" y="110.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.View">
+      <point x="-61.09090909090901" y="-15.0" />
+      <point x="743.6664307914314" y="700.0" />
+      <point x="50.0" y="700.0" />
+      <point x="10.0" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.ClientGraphicalUserInterface" target="PresentationLayer.Criteriu">
+      <point x="-68.0" y="-15.0" />
+      <point x="614.9481251018485" y="530.0" />
+      <point x="699.4240065490071" y="530.0" />
+      <point x="-37.33333333333326" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.User">
+      <point x="-32.0" y="-15.0" />
+      <point x="772.7573398823404" y="650.0" />
+      <point x="343.13636363636357" y="650.0" />
+      <point x="343.13636363636357" y="240.0" />
+      <point x="295.8791790360939" y="240.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.DeliveryService" target="DataLayer.FileWriterr">
+      <point x="-8.0" y="-15.0" />
+      <point x="1026.6588550338556" y="350.0" />
+      <point x="976.7458663676754" y="350.0" />
+      <point x="-51.0" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.DeliveryService" target="BusinessLayer.BaseProduct">
+      <point x="56.0" y="-15.0" />
+      <point x="1090.6588550338556" y="420.0" />
+      <point x="1712.2458663676753" y="420.0" />
+      <point x="1712.2458663676753" y="270.0" />
+      <point x="1706.5315806533897" y="270.0" />
+      <point x="-19.42857142857133" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.DeliveryService" target="BusinessLayer.CompositeProduct">
+      <point x="48.0" y="-15.0" />
+      <point x="1082.6588550338556" y="410.0" />
+      <point x="1613.7458663676753" y="410.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Main.MainClass" target="PresentationLayer.Controller">
+      <point x="15.0" y="-15.0" />
+      <point x="426.42274770147156" y="770.0" />
+      <point x="772.7573398823404" y="770.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Employee" target="PresentationLayer.Role">
+      <point x="-37.33333333333337" y="-15.0" />
+      <point x="227.66666666666663" y="240.0" />
+      <point x="212.8943305512455" y="240.0" />
+      <point x="212.8943305512455" y="100.0" />
+      <point x="127.71347086719436" y="100.0" />
+      <point x="8.888888888888914" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.CompositeProduct" target="BusinessLayer.BaseProduct">
+      <point x="35.200000000000045" y="-15.0" />
+      <point x="1648.9458663676755" y="270.0" />
+      <point x="1667.6744377962468" y="270.0" />
+      <point x="-58.28571428571422" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Controller" target="PresentationLayer.Criteriu">
+      <point x="2.909090909090878" y="-15.0" />
+      <point x="807.6664307914311" y="600.0" />
+      <point x="829.4481251018485" y="600.0" />
+      <point x="829.4481251018485" y="530.0" />
+      <point x="774.0906732156736" y="530.0" />
+      <point x="37.33333333333326" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.EmployeeGraphicalUserInterface" target="BusinessLayer.DeliveryService">
+      <point x="-72.0" y="-15.0" />
+      <point x="987.2458663676754" y="530.0" />
+      <point x="1013.6588550338556" y="530.0" />
+      <point x="-21.0" y="15.0" />
+    </edge>
+    <edge source="BusinessLayer.DeliveryService" target="BusinessLayer.IDeleveryServiceProcessing">
+      <point x="32.0" y="-15.0" />
+      <point x="1066.6588550338556" y="390.0" />
+      <point x="1376.7458663676753" y="390.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.Observer" target="BusinessLayer.Order">
+      <point x="0.0" y="-15.0" />
+      <point x="1171.7458663676753" y="240.0" />
+      <point x="916.5682549719786" y="240.0" />
+      <point x="25.142857142857224" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.All" target="DataLayer.Serializator">
+      <point x="10.285714285714278" y="-15.0" />
+      <point x="422.07592407592404" y="250.0" />
+      <point x="434.29020979020976" y="250.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+    <edge source="PresentationLayer.All" target="PresentationLayer.Role">
+      <point x="0.0" y="-15.0" />
+      <point x="411.79020979020976" y="70.0" />
+      <point x="154.380137533861" y="70.0" />
+      <point x="35.55555555555554" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1100.3333333333333" y="395.28571428571456" />
+  <SelectedNodes>
+    <node>BusinessLayer.Order</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

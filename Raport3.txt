@@ -1,0 +1,1 @@
+[User{username='ana', password='abc', role=CLIENT, nr=1, nri=2}, User{username='paula', password='p', role=CLIENT, nr=1, nri=4}]
