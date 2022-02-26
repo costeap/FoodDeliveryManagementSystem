@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.List;
 
 /**
- * @author Costea Paula-Maria, grupa 302210
+ * @author Costea Paula-Maria
  * @since Iunie, 2021
  *
  */

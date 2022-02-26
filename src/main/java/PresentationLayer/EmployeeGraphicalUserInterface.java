@@ -14,7 +14,7 @@ import javax.swing.border.EmptyBorder;
 import BusinessLayer.DeliveryService;
 import BusinessLayer.Order;
 
-@SuppressWarnings({"deprecation", "serial"})
+@SuppressWarnings({"deprecation"    , "serial"})
 public class EmployeeGraphicalUserInterface extends JFrame implements Observer {
     private JLabel loginB;
     private JPanel contentPane;

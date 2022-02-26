@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 
 
 /**
- * @author Costea Paula-Maria, grupa 302210
+ * @author Costea Paula-Maria
  * @since Iunie, 2021
  *
  */
@@ -688,7 +688,7 @@ public class DeliveryService extends Observable implements IDeleveryServiceProce
     public void raportPatru(int z) {
         assert (z<=30);
         //filtru dupa zi
-        Set<Order> ok = listaComenzi.keySet().stream().filter(order -> order.getDate().getDay() == z).collect(Collectors.toSet());
+        Set<Order> ok = listaComenzi.keySet().stream().filter(order -> order.getDate().getDay()-1 == z).collect(Collectors.toSet());
         List<MenuItem> prod = new LinkedList<>();
         StringBuilder s = new StringBuilder("");
         ok.stream().forEach(order -> prod.addAll(listaComenzi.get(order)));

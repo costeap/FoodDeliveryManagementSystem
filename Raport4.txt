@@ -1,1 +1,4 @@
-BaseProduct{title='frigarui', rating=3.0, calories=6, proteins=46, fats=3, sodium=7, price=29}
+
+BaseProduct{title='pizza', rating=5.0, calories=4, proteins=1, fats=4, sodium=5, price=25}
+
+BaseProduct{title='cola', rating=5.0, calories=2, proteins=5, fats=7, sodium=4, price=10}
